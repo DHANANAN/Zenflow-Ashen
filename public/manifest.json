@@ -1,0 +1,16 @@
+{
+  "name": "Zenflow",
+  "short_name": "Zenflow",
+  "description": "A digital sanctuary for mindful productivity.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F0E1A",
+  "theme_color": "#7C3AED",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
