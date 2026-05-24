@@ -26,7 +26,7 @@ export default function AuthModal({ onClose }) {
         try {
           turnstileContainerRef.current.innerHTML = ''
           widgetId = window.turnstile.render(turnstileContainerRef.current, {
-            sitekey: '1x00000000000000000000AA', // Cloudflare Turnstile Always-Passes sitekey
+            sitekey: '0x4AAAAAADVFkfLuiDGIhx3M', // Your Cloudflare Turnstile sitekey
             callback: (token) => {
               setTurnstileToken(token)
               setError('')

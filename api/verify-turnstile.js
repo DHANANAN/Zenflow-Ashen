@@ -9,8 +9,8 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'Turnstile token missing.' });
   }
 
-  // Cloudflare test secret key for the "always passes" sitekey
-  const SECRET_KEY = '1x000000000000000000000000000000AA';
+  // Cloudflare secret key
+  const SECRET_KEY = '0x4AAAAAADVFkYzji5dd--lc51ihQ0I-1xA';
 
   try {
     const response = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
